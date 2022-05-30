@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+
+<html lang="esp">
+
+<head>
+    
+    <meta charset="UTF-8">
+    <title>Encriptador de texto</title>
+    <link  rel="stylesheet"  href="./andy/reset.css">
+    <link rel="stylesheet" href="style.css">
+
+    <!-- link rel="preconectar" href="https://fonts.googleapis.com">
+    <link rel="preconectar" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https: //fonts.googleapis.com/css2? familia= Inter:peso@100;200;300;400;500;600;700;800;900 & display=swap" rel="stylesheet">
+     -->
+  </head>
+
+<body>
+      <header class="logo">
+       <img  src="Vector.png">
+
+      </header> 
+    
+<main>
+ 
+  <section> 
+     <div class="pera">  <textarea type="text" class="input-text" placeholder= "ingrese el texto aqui"></textarea></div>
+     
+    <p class="letras"><object data="Vector.svg"  class="vector"></object>solo letras minúsculas y sin acentos</p>
+  
+  
+    <div class="botones">
+    <button class="encriptar" type="button" onclick=" btnencriptar()">Encriptar</button>
+    <button class="desencriptar"  type="button"  onclick="btnDesencriptar()">Desencriptar</button>
+  </div>
+  </section>
+    
+  
+  <section class="rectangulo">
+         
+    <textarea type="text" id="texto-encriptado" class="input-text-area"></textarea>
+     <div class="manzana"><img id="muñeco" class="muñecocss" src="./muñeco.png">
+      <strong id="texto1" class="texto1">Ningun Mensaje Fue Encontrado.</strong>
+       <p id="texto2" class="texto2">Ingresa el texto que deseas encriptar o desencriptar.</p>
+     </div>
+    
+
+    
+      <button type="button"  id="copy1"  class="copiar" onclick="copiar()"  >Copiar</button> 
+    </section>
+
+
+
+</main>
+<script src="script.js"> </script>
+</body>
+
+</html>

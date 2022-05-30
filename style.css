@@ -1,0 +1,210 @@
+*{
+margin: 0;
+padding: 0;
+background:#f3f5fc ;
+font-family: "inter" sans-serif;
+font-weight: 400;
+font-size: 32px;
+line-height: 150%;
+}
+
+body{
+    position: relative;
+    width: 1440px;
+    height: 1024px; 
+    
+}
+
+
+
+.logo{
+    margin-top: 3%;
+    margin-left: 3%;
+
+}
+
+
+main{
+    
+    margin-top: -7%;
+    margin-left: 7%;
+    width: 50% ;
+    height: ;
+    
+}
+
+.pera{
+     
+     height: 522px;
+     width:860px ;
+     margin-top:100px ;
+     background: #f3f5fc;
+}
+
+
+.input-text{
+    margin-top: 9px;
+    margin-left: 2% ;
+    width: 700px;  ;
+    height: 500px;
+    background: #f3f5fc ;
+    text-align: left;
+    border: none;
+    outline: none ;
+    color: black;
+    resize:none ;
+}
+
+.letras{
+    width: 230px;
+    height: 18px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 150%;
+    color: #495057;
+    opacity: 0.8;
+    margin-left: 70px;
+    padding: 9px;        
+}
+
+.vector{
+position: absolute;   
+margin-left: -25px ;
+width: 20px;
+   
+}
+
+.botones{
+     display: flex;
+     flex-direction: row;
+     align-items: flex-start;
+     gap: 15px;
+    padding: 10px ;
+    width: 680px; 
+    height: 67px;
+    margin-left: 10px;
+}
+
+.encriptar{
+    padding: 20px;
+    width: 328px ;
+    height: 67px ;
+    padding: 24px;
+    gap: 8px ;
+    background: #0A3871;
+   border-radius: 24px;
+   color:#ffffff;
+   line-height: 19px ;
+   font-size: 16px ;
+   font-weight: 400;
+   text-align: center;
+   
+}
+
+.desencriptar{
+
+    padding: 20px;
+    width: 328px ;
+    height: 67px ;
+    padding: 24px;
+    gap: 8px ;
+   color:  #0a3871;
+   line-height: 19px ;
+   font-size: 16px ;
+   font-weight: 400;
+   text-align: center;
+    background: #D8DFE8;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+}
+
+
+
+.rectangulo{
+    position: relative;
+    margin-top: -100%;
+    margin-left: 790px ;
+    width: 400px;
+    height: 844px;
+    border-radius: 32px; 
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    background-color: #ffffff;
+}
+
+
+.input-text-area{
+    position: relative;
+    margin-top: 10px;
+    margin-left: 10px ;
+    width: 375px;
+    height: 670px;
+   background-color: rgb(255, 255, 255);
+   border: none;
+   outline: none;
+   resize: none;
+
+}
+
+.manzana{
+          
+    margin-top: 15px;
+
+}
+
+#muñeco{
+        
+           margin-left: 35px;
+         background-color: rgb(255, 255, 255);
+      margin-top: -150%;
+      position: absolute;
+} 
+
+.texto1{
+         margin-top:-70%;
+         position: absolute;
+         margin-left: 25px ;
+         background-color: #ffffff;
+         text-align: center;
+         font-weight: 700;
+         font-size: 24px;
+          line-height: 120%;
+          color: #343A40;
+          
+}
+
+.texto2{
+    margin-top:-60% ;
+    position: absolute;
+    margin-left: 34px ;
+    background-color: #ffffff;
+    text-align: center;
+    font-weight: 400;
+    font-size: 16px;
+     line-height: 150%;
+     color: #495057;
+     
+}
+
+
+.copiar{
+    position: relative;
+    margin-top:40px ;
+    margin-left: 85px ;
+    width: 60% ;
+    height: 7% ;
+    background: #ffffff;
+    border: 3px solid #0A3871;
+    border-radius: 24px;
+    display: none;
+}
+
+.copiar:hover{
+
+    background: #0A3871;
+    color:#ffffff;
+
+}
+
+
+
+
